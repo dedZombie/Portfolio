@@ -10,7 +10,7 @@
         width: 28px;
         height: 3px;
         margin: 0 0 5px 0;
-        background: white;
+        background: set-text-color($primary-color);
         @include easeOut;
     }
 
@@ -91,9 +91,6 @@
             background: url('../img/portrait.jpg');
             border-radius: 50%;
             border: solid 3px $secondary-color;
-            transform: rotate(-90deg);
-            background-size: cover;
-            background-position-x: -100px;
         }
     }
 
@@ -118,7 +115,7 @@
         text-transform: uppercase;
         padding: 1rem 0;
         font-weight: 300;
-        color: #fff;
+        color: set-text-color($primary-color);
         text-decoration: none;
         @include easeOut;
 
