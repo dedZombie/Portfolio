@@ -194,6 +194,10 @@ main .icons a:hover {
   color: #eece1a;
   transition: all 0.5s ease-in-out;
 }
+main .icons a i:hover {
+  transform: scale(1.3);
+  transition: all 0.5s ease-in-out;
+}
 main#home {
   overflow: hidden;
 }
