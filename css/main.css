@@ -69,6 +69,7 @@
   width: 250px;
   height: 250px;
   background: url("../img/portrait.jpg");
+  background-position-x: -100px;
   border-radius: 50%;
   border: solid 3px #eece1a;
 }
@@ -343,8 +344,8 @@ div.menu-brand.show {
   .menu-brand .portrait {
     width: 100px;
     height: 100px;
-    background-position-x: -40px;
     background: url("../img/portrait_small.jpg");
+    background-position-x: -45px;
   }
 
   .about-info {
