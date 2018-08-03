@@ -194,6 +194,10 @@ main .icons a:hover {
   color: #eece1a;
   transition: all 0.5s ease-in-out;
 }
+main .icons a i:hover {
+  transform: scale(1.3);
+  transition: all 0.5s ease-in-out;
+}
 main#home {
   overflow: hidden;
 }
@@ -365,12 +369,31 @@ div.menu-brand.show {
     margin-top: 10vh;
   }
   main .lg-heading {
-    margin-top: 1rem;
     font-size: 5rem;
   }
 
   .projects {
     grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 320px) {
+  main {
+    margin-top: 10vh;
+  }
+  main .lg-heading {
+    font-size: 3rem;
+  }
+  main .sm-heading {
+    font-size: 1rem;
+  }
+
+  .menu-nav.show .nav-item a {
+    font-size: 1.5rem;
+  }
+
+  .about-info .bio-image {
+    width: 100%;
+    height: auto;
   }
 }
 

@@ -40,6 +40,11 @@ $footer-height: 60px;
 }
 
 // Media query mixins 
+@mixin mediaXs {
+    @media screen and (max-width: 320px) {
+        @content;
+    }
+}
 
 @mixin mediaSm {
     @media screen and (max-width: 500px) {

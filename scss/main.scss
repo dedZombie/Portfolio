@@ -67,6 +67,11 @@ main {
                 color: $secondary-color;
                 @include easeOut;
             }
+
+            i:hover{
+                transform: scale(1.3);
+                @include easeOut;
+            }
         }
     }
 
