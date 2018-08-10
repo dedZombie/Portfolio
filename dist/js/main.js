@@ -36,9 +36,11 @@ function toggleMenu() {
     }
 }
 
-// animate progress bar 
-progressBarOne.classList.add('w-90');
-progressBarTwo.classList.add('w-90');
-progressBarThree.classList.add('w-50');
-progressBarFour.classList.add('w-80');
-progressBarFive.classList.add('w-50');
+window.addEventListener('load', function(){
+    // animate progress bar 
+    progressBarOne.classList.add('w-90');
+    progressBarTwo.classList.add('w-90');
+    progressBarThree.classList.add('w-50');
+    progressBarFour.classList.add('w-80');
+    progressBarFive.classList.add('w-50');
+});
