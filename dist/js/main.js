@@ -4,6 +4,7 @@ const menu = document.querySelector('.menu');
 const menuBrand = document.querySelector('.menu-brand');
 const menuNav = document.querySelector('.menu-nav');
 const navItems = document.querySelectorAll('.nav-item');
+const progressbar = document.querySelectorAll('.progress-bar');
 
 // Set Initial State Of Menu
 let showMenu = false;
@@ -30,3 +31,9 @@ function toggleMenu() {
         showMenu = false;
     }
 }
+
+// animate progress bar 
+
+document.addEventListener('DOMContentLoaded', function() {
+    progressbar.forEach(item => item.classList.add('w-50'));
+});

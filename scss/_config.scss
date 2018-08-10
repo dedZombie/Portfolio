@@ -30,6 +30,18 @@ $footer-height: 60px;
     }
 }
 
+// @mixin progressColor {
+//     .primary > span {
+//         background-color: $primary-color;
+//         background-image: linear-gradient(to bottom, $primary-color, #f36d0a);
+//     }
+      
+//     .secondary > span {
+//         background-color: $secondary-color;
+//         background-image: linear-gradient(to bottom, $secondary-color, #f42323);
+//     }
+// }
+
 // Set text color
 @function set-text-color($color) {
     @if (lightness($color) > 40) {
