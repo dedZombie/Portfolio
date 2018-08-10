@@ -470,8 +470,11 @@ div.menu-brand.show {
   }
 
   .about-info {
-    grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
+    grid-template-areas: "bioimage" "bio" "work-title" "job1" "job2";
     grid-template-columns: 1fr;
+  }
+  .about-info .bio {
+    font-size: 1rem;
   }
 
   .projects {
@@ -503,6 +506,11 @@ div.menu-brand.show {
   }
   main .lg-heading {
     font-size: 5rem;
+  }
+
+  .about-info .bio-image {
+    width: 100%;
+    height: auto;
   }
 
   .projects {
