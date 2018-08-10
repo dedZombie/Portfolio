@@ -367,7 +367,7 @@ div.menu-brand.show {
     padding: 0.55rem 0;
   }
 
-  main {
+  main#home {
     padding: 2rem;
   }
   main#home h1 {
