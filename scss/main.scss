@@ -176,7 +176,11 @@ main {
 	padding: 10px;
     box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
     
-    span.progress-bar {
+    span#progress-bar-1,
+    span#progress-bar-2,
+    span#progress-bar-3,
+    span#progress-bar-4,
+    span#progress-bar-5 {
         display: block;
         height: 100%;
         width: 0%;
@@ -197,7 +201,7 @@ main {
         top: 0;
         left: 0;
         overflow: hidden;
-        @include easeOut;
+        transition: width 2s ease-in-out;
 
         &.w-10 {
             width: 10%;

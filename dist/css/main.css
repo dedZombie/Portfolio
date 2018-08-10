@@ -286,7 +286,11 @@ main#home h1 {
   padding: 10px;
   box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
 }
-.meter span.progress-bar {
+.meter span#progress-bar-1,
+.meter span#progress-bar-2,
+.meter span#progress-bar-3,
+.meter span#progress-bar-4,
+.meter span#progress-bar-5 {
   display: block;
   height: 100%;
   width: 0%;
@@ -301,36 +305,76 @@ main#home h1 {
   top: 0;
   left: 0;
   overflow: hidden;
-  transition: all 0.5s ease-in-out;
+  transition: width 2s ease-in-out;
 }
-.meter span.progress-bar.w-10 {
+.meter span#progress-bar-1.w-10,
+.meter span#progress-bar-2.w-10,
+.meter span#progress-bar-3.w-10,
+.meter span#progress-bar-4.w-10,
+.meter span#progress-bar-5.w-10 {
   width: 10%;
 }
-.meter span.progress-bar.w-20 {
+.meter span#progress-bar-1.w-20,
+.meter span#progress-bar-2.w-20,
+.meter span#progress-bar-3.w-20,
+.meter span#progress-bar-4.w-20,
+.meter span#progress-bar-5.w-20 {
   width: 20%;
 }
-.meter span.progress-bar.w-30 {
+.meter span#progress-bar-1.w-30,
+.meter span#progress-bar-2.w-30,
+.meter span#progress-bar-3.w-30,
+.meter span#progress-bar-4.w-30,
+.meter span#progress-bar-5.w-30 {
   width: 30%;
 }
-.meter span.progress-bar.w-40 {
+.meter span#progress-bar-1.w-40,
+.meter span#progress-bar-2.w-40,
+.meter span#progress-bar-3.w-40,
+.meter span#progress-bar-4.w-40,
+.meter span#progress-bar-5.w-40 {
   width: 40%;
 }
-.meter span.progress-bar.w-50 {
+.meter span#progress-bar-1.w-50,
+.meter span#progress-bar-2.w-50,
+.meter span#progress-bar-3.w-50,
+.meter span#progress-bar-4.w-50,
+.meter span#progress-bar-5.w-50 {
   width: 50%;
 }
-.meter span.progress-bar.w-60 {
+.meter span#progress-bar-1.w-60,
+.meter span#progress-bar-2.w-60,
+.meter span#progress-bar-3.w-60,
+.meter span#progress-bar-4.w-60,
+.meter span#progress-bar-5.w-60 {
   width: 60%;
 }
-.meter span.progress-bar.w-70 {
+.meter span#progress-bar-1.w-70,
+.meter span#progress-bar-2.w-70,
+.meter span#progress-bar-3.w-70,
+.meter span#progress-bar-4.w-70,
+.meter span#progress-bar-5.w-70 {
   width: 70%;
 }
-.meter span.progress-bar.w-80 {
+.meter span#progress-bar-1.w-80,
+.meter span#progress-bar-2.w-80,
+.meter span#progress-bar-3.w-80,
+.meter span#progress-bar-4.w-80,
+.meter span#progress-bar-5.w-80 {
   width: 80%;
 }
-.meter span.progress-bar.w-90 {
+.meter span#progress-bar-1.w-90,
+.meter span#progress-bar-2.w-90,
+.meter span#progress-bar-3.w-90,
+.meter span#progress-bar-4.w-90,
+.meter span#progress-bar-5.w-90 {
   width: 90%;
 }
-.meter span.progress-bar.w-100 {
+.meter span#progress-bar-1.w-100,
+.meter span#progress-bar-2.w-100,
+.meter span#progress-bar-3.w-100,
+.meter span#progress-bar-4.w-100,
+.meter span#progress-bar-5.w-100 {
   width: 100%;
 }
 

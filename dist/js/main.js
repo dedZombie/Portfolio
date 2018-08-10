@@ -4,7 +4,11 @@ const menu = document.querySelector('.menu');
 const menuBrand = document.querySelector('.menu-brand');
 const menuNav = document.querySelector('.menu-nav');
 const navItems = document.querySelectorAll('.nav-item');
-const progressbar = document.querySelectorAll('.progress-bar');
+const progressBarOne = document.getElementById('progress-bar-1');
+const progressBarTwo = document.getElementById('progress-bar-2');
+const progressBarThree = document.getElementById('progress-bar-3');
+const progressBarFour = document.getElementById('progress-bar-4');
+const progressBarFive = document.getElementById('progress-bar-5');
 
 // Set Initial State Of Menu
 let showMenu = false;
@@ -33,7 +37,8 @@ function toggleMenu() {
 }
 
 // animate progress bar 
-
-document.addEventListener('DOMContentLoaded', function() {
-    progressbar.forEach(item => item.classList.add('w-50'));
-});
+progressBarOne.classList.add('w-90');
+progressBarTwo.classList.add('w-90');
+progressBarThree.classList.add('w-50');
+progressBarFour.classList.add('w-80');
+progressBarFive.classList.add('w-50');
